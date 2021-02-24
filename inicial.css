@@ -1,64 +1,45 @@
-* {
-  font-family: Roboto;
-  margin: auto;
+body {
+  background-image: url(Img/curso-confeitaria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 30px;
-}
-
-@media (max-width: 800px) {
-  .container ul{
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
-}
-
-.container ul li{
-  list-style-type: none;
-}
-
-ul li{
-  list-style-type: none;
+h1, h2, h3, p {
+  color: #fff;
 }
 
 img {
   max-width: 100%;
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
+  border-radius: 50%;
 }
 
-nav {
-  background: rgba(255, 69, 0, .5);
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 50px auto 50px 450px;
+  padding-top: 100px;
+}
+
+.container > div {
+  flex: 1 1 200px;
+  margin: 10px 40px;
+  padding: 10px;
 }
 
 h2 {
-  text-transform: uppercase;
-  color: rgba(255, 69, 0, .5);
+  text-align: center;
 }
 
-h2 {
-  text-align:center;
-}
-
-li {
-  font-size: 20px;
-}
-
-p {
-  max-width: 100%;
-  text-align: left;
-  font-size: 14px;
-}
-
-
-nav ul{
+footer {
+  background-color: black;
+  color: #fff;
   display: flex;
-  align-items: center;
-}
-
-nav ul li {
-  padding: 0 0 0 30px;
+  justify-content: space-around;
 }

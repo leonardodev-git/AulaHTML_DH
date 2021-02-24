@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="inicial.css">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
-      <ul class="menu">
-        <li><img src="Img/icone-festa.png" alt="logo" width="100" height="70"></li>
-        <li>Bolo de Milho</li>
-        <li>Bolo de Cenoura</li>
-        <li>Bolo de Chocolate</li>
-        <li>Bolo de Limão</li>
-      </ul>
-    </nav>
 
-   <div class="container">
-      <ul>
-        <li>
-          <h2>Bolo de Milho</h2>
-          <p>Bolo de milho, também conhecido como bolo de fubá, é um tipo de bolo no qual o principal ingrediente é o milho, podendo ser o creme de milho verde ou a farinha de milho, também conhecida como fubá. É um prato tradicional da culinária brasileira</p>
-          <img src="Img/Bolo-de-Milho.jpg" alt="bolo_de_milho" width="250" height="250">
-        </li>
-        <li>
-          <h2>Bolo de Cenoura</h2>
-          <p>O bolo de cenoura é um bolo doce com raspagem de cenoura misturada dentro da massa. A cenoura é amolecida no processo de cozimento, e o bolo, usualmente, tem um amolecimento e uma textura densa e suave.</p>
-          <img src="Img/bolo-de-cenoura.jpg" alt="bolo_de_cenoura" width="250" height="250">
-        </li>
-        <li>
-          <h2>Bolo de Chocolate</h2>
-          <p>Bolo de chocolate é um bolo simples ou confeitado, que leva chocolate derretido ou em pó, ou ainda cacau em pó em sua confecção. Os ingredientes mais comuns são o ovo, o leite, a manteiga ou substituto, açúcar e fermento.</p>
-          <img src="Img/bolo-de-chocolate.jpg" alt="bolo_de_chocolate" width="250" height="250">
-        </li>
-        <li>
-          <h2>Bolo de Limão</h2>
-          <p>Bolo de limão (em inglês: lemon cake e em francês: gâteau au citron) é uma receita preparada com farinha de trigo, óleo vegetal, leite, suco de limão, ovos, açúcar, fermento químico e raspas de limão.</p>
-          <img src="Img/bolo-de-limao.jpg" alt="bolo_de_limao" width="250" height="250">
-        </li>
-      </ul>
-   </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="inicial.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <a href="Inicial.html"><img src="Img/icone-festa.png" alt="logo" class="logo"></a>
+    <nav class="menu">
+      <a href="sobre.html">Sobre</a>
+      <a href="Inicial.html">Receitas</a>
+      <a href="contato.html">Contato</a>
+
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="card">
+      <h2>Bolo de Milho</h2>
+      <a href="receita-milho.html"><img src="Img/Bolo-de-Milho.jpg" alt="bolo_de_milho"></a>
+    </div>
+    <div class="card">
+      <h2>Bolo de Cenoura</h2>
+      <a href="receita-cenoura.html"><img src="Img/bolo-de-cenoura.jpg" alt="bolo_de_cenoura"></a>
+    </div>
+    <div class="card">
+      <h2>Bolo de Chocolate</h2>
+      <a href="receita-chocolate.html"><img src="Img/bolo-de-chocolate.jpg" alt="bolo_de_chocolate"></a>
+    </div>
+    <div class="card">
+      <h2>Bolo de Limão</h2>
+      <a href="receita-limao.html"><img src="Img/bolo-de-limao.jpg" alt="bolo_de_limão"></a>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>Alguns direitos reservados</p>
+    <p>Desenvolvido por Leonardo Monteiro</p>
+  </footer>
+
 </body>
+
 </html>

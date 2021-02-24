@@ -1,0 +1,70 @@
+body {
+  background-image: url(Img/curso-confeitaria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+h1, h2, h3, p {
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+h1 {
+  text-align: start;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 50px auto 50px;
+  padding-top: 100px;
+  
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contatos a{
+  margin: 0 10px;
+  width: 300px;
+}
+
+span {
+  padding-top: 20px;
+  width: 150px;
+  height: 40px;
+  margin: 60px auto 0px auto;
+  background-color: coral;
+  border-radius: 50px;
+}
+span a {
+  text-decoration: none;
+  color: black;
+  margin: 0 30px;
+  padding: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 70px;
+}
+
+
+footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
